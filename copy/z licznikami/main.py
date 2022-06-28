@@ -11,10 +11,10 @@ templates = Jinja2Templates(directory="templates")
 # volume - ilość wyświetlanych rekordów TOP *
 volume = 3
 # URL DATA
-DB = "MG_GT"
-DB_SERVER = "SL-SQL"
-DB_USER = "srv-wizual"
-DB_PASSWORD = "DNy6013701C"
+DB = "xxxx"
+DB_SERVER = "xxxx"
+DB_USER = "xxxxx"
+DB_PASSWORD = "xxxxxxxx"
 DB_DRIVER = "{ODBC Driver 17 for SQL Server}"
 
 db_URL = (f"DRIVER={DB_DRIVER};"
