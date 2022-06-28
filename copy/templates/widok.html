@@ -1,0 +1,79 @@
+<head>
+	<title>BB ZNK</title>
+	<link id="favicon" rel="icon" type="image/x-icon" href="static/favicon.ico">
+	<link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+	<div class="top_space">
+		<div class="logo">
+			<div class="plant">Bielsko-Biała Plant</div>
+		</div>
+	<container>
+		<panel>
+			<table id="ZNK1" class="table">
+				<th>ZNK1</th>		
+				<tbody>
+					
+					{% for row in list_znk_1 %}
+					<tr>
+					
+						<td class="lightgreen">{{row.2}}</td>
+						<td class="red">{{row.16}}</td>
+						<td class="lightgray">{{row.3}}</td>
+						<td class="lightgreen">Zamówiono: <span class="red">{{row.5}}</span></td>
+						<td class="lightgreen">Zrealizowano: <span class="red">{{row.14}}</span></td>
+						
+						
+					</tr>
+
+					{% endfor %}
+				</tbody>
+				
+			</table>
+		</panel>
+		<panel>  
+			<table id="ZNK1D1" class="table">
+				<th>ZNK1:D1</th>
+				<tbody>
+					
+					{% for row in list_znk_1d1 %}
+					<tr>
+					
+						<td class="lightgreen">{{row.2}}</td>
+						<td class="red">{{row.16}}</td>
+						<td class="lightgray">{{row.3}}</td>
+						<td class="lightgreen">Zamówiono: <span class="red">{{row.5}}</span></td>
+						<td class="lightgreen">Zrealizowano: <span class="red">{{row.14}}</span></td>
+						
+						
+					</tr>
+
+					{% endfor %}
+				</tbody>
+			</table>
+		</panel>
+		<panel>  
+			<table id="ZNK2" class="table">
+				<th>ZNK2</th>
+				<tbody>
+					
+					{% for row in list_znk_2 %}
+					<tr>
+					
+						<td class="lightgreen">{{row.2}}</td>
+						<td class="red">{{row.16}}</td>
+						<td class="lightgray">{{row.3}}</td>
+						<td class="lightgreen">Zamówiono: <span class="red">{{row.5}}</span></td>
+						<td class="lightgreen">Zrealizowano: <span class="red">{{row.14}}</span></td>
+						
+						
+					</tr>
+
+					{% endfor %}
+				</tbody>
+				
+			</table>
+		</panel>
+	</container>
+		<script type="text/javascript" src="static/script.js"></script>
+</body>
